@@ -1,0 +1,305 @@
+echo hola
+echo "Hoy es lunes"
+echo $HOME 
+man
+man echo
+man man
+pwd
+whoim
+whoami
+ls
+ls -l
+mkdir clase4
+ls -l
+pwd
+cd clase4/
+pwd
+history
+cat archivo1.txt
+cat > archivo1.txt
+ls -l
+cat archivo1.txt
+cat > archivo2.txt
+ls -l
+cat archivo1.txt archivo2.txt >> archivo3.txt
+ls -l
+cat archivo3.txt
+grep Linea4 archivo3.txt 
+grep -i LINEA4 archivo3.txt 
+grep -C Linea4 archivo3.txt 
+grep -c Linea4 archivo3.txt 
+grep -n Linea4 archivo3.txt 
+grep -v Linea4 archivo3.txt 
+pwd
+cd ..
+cd clase4/
+cd ..
+pwd
+shh-keygen -t ed25519
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .shh
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+exit
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd ..
+pwd
+cd ~
+pwd
+ls -l
+cd repogit/
+pwd
+ls -l
+git clone git@github.com:lucasgpalmer/VMvangrand_repo.git
+ls -l
+cd VMvangrand_repo/
+pwd
+ls -l
+echo "Mi primer repo"
+echo "Mi primer repo" > texto1.txt
+ls -l
+cat texto1.txt 
+git status
+git add .
+git status
+git commit -m "agrego texto1.txt"
+git status
+git push
+cd ~
+exit
+pwd
+ls -l
+cd clase4/
+ls -l
+cat archivo3.txt 
+grep linea3 archivo3.txt 
+grep Linea3 archivo3.txt 
+grep linea3 -i archivo3.txt 
+grep 3 -i archivo3.txt 
+grep linea -i archivo3.txt 
+grep -c 3 archivo3.txt 
+grep -ci linea archivo3.txt 
+grep -ic linea archivo3.txt 
+grep -n 3 archivo3.txt 
+grep -v 3 archivo3.txt 
+clear
+pwd
+ls -l
+ls
+tree
+sudo apt update
+sudo apt install tree
+tree
+ls -l
+cd ..
+ls -l
+pwd
+tree
+ls -l
+mkdir Clase5
+ls -l
+cd Clase 5
+cd Clase5
+pwd
+ls -l
+mkdir practica
+ls -l
+cd practica/
+ls -l
+touch practica1.txt
+ls -l
+cat practica1.txt 
+cp practica1.txt practica2.txt 
+ls -l
+rm practica1.txt 
+ls- l
+pwd
+ls- l
+ls -l
+cd ..
+pwd
+ls -l
+mv Clase5/ mv clase 5
+mv Clase5/ mv clase5
+mv Clase5/ mv
+mv Clase5/ clase5
+cd Clase5
+ls -l
+cd mv
+cd practica
+cd ..
+mv mv clase5
+ls -l
+cd clase5
+practica
+ls -l
+cd practica/
+mv practica2.txt /home/vagrant/clase5/
+pwd
+ls -l
+cd ..
+ls -l
+rmdir -i practica/
+rmdir practica/
+ls -l
+pwd
+cd ..
+pwd
+cd clase5/
+pwd
+mkdir facturas pedidos
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p palmer_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p palmer_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado}
+tree
+rm -r
+mr -r
+tree
+rm -r palmer_2
+tree
+mkdir -p palmer_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado}}
+tree
+rm -r palmer_2
+mkdir -p palmer_2/{mama/hijo{1..3},{papa/hijo{1..3},ahijado}}
+tree
+rm -r palmer_2
+tree
+mkdir -p palmer_2/{mama/hijo{1..3},papa/hijo{1..3},ahijado}}
+tree
+rm -r palmer_2
+tree
+mkdir -p palmer_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+tree
+pwd
+ls -l
+grep vagrant /etc/passwd
+cat /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+grep vagrant /etc/grorp
+grep vagrant /etc/group
+cd ..
+pwd
+cat /etc/group
+sudo groupadd Alumnos
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno pepe" -G Alumnos pepe
+cat /etc/passwd
+cat /etc/group
+ls -l /home
+sudo passwd pepe
+su - pepe
+cd ..
+cd pepe
+ls -l
+cd pepe
+pwd
+cd pepe
+exit
+pwd
+su - pepe
+sudo usermod -aG sudo pepe
+su - pepe
+exit
+pwd
+whoami
+shh-keygen -t ed25519
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+pwd
+ls -l
+rmdir repogit
+rm -r repogit/
+ls -l
+cd repogit/
+ls -l
+cd
+ls -l
+rm -rf repogit
+ls -l
+pwd
+mkdir repogit
+pwd
+ls -l
+cd repogit/
+git clone https://github.com/lucasgpalmer/TP1_AySO_Palmer_Lucas.git
+cd TP1_AySO_Palmer_Lucas/
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+echo "usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+gitt add .
+git add .
+git commit -m "ADD: agreggado 1er ejercicio sobre datos_usuario"
+git status
+git push
+git status
+git push
+cat $HOME/.ssh/*.pub
+git remote set-url origin git@github.com:lucasgpalmer/TP1_AySO_Palmer_Lucas.git
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: Lucas Gonzalez Palmer
+División: 113
+Turno: Mañana
+EOF
+
+cat README.md 
+ls -l
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadimos Readme y datos de usuario"
+git push
+mkdir -p {materia1,materia2}/uni{1..3}
+trhee
+pwd
+ls 
+rm -r materia1 materia2
+ls 
+cd..
+cd...
+cd ...
+cd ..
+pwd
+mkdir -p {materia1,materia2}/uni{1..3}
+ls
+tree
+rm -r materia1 materia2
+pwd
+ls
+cd repogit/
+ls
+cd TP1_AySO_Palmer_Lucas/
+pwd
+mkdir -p {materia1,materia2}/uni{1..3} && mv materia1 materia2 /home/vagrant
+pwd
+ls -l
+history -a
